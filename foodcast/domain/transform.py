@@ -60,7 +60,7 @@ def merge(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
 
 
 @log_return_shape
-def resample(df: pd.DataFrame, freq: str = '1H') -> pd.DataFrame:
+def resample(df: pd.DataFrame, freq: str = '1h') -> pd.DataFrame:
     """
     Resample a time series dataframe at a given rate (hourly rate by default).
 
@@ -68,7 +68,7 @@ def resample(df: pd.DataFrame, freq: str = '1H') -> pd.DataFrame:
     ----------
     df : pd.DataFrame
         The input dataframe. Should have a column 'order_date'.
-    freq: str, optional (default: '1H')
+    freq: str, optional (default: '1h')
         Sampling frequency.
 
     Returns
@@ -76,7 +76,7 @@ def resample(df: pd.DataFrame, freq: str = '1H') -> pd.DataFrame:
     pd.dataframe
         Resampled dataframe, with one point per hour in 'order_date'.
     """
-    return df.resample('1H', on='order_date').sum().reset_index()
+    return df.resample(freq, on='order_date').sum().reset_index()
 
 
 @log_return_shape

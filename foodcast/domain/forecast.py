@@ -80,7 +80,7 @@ def cross_validate(
 
 
 @log_return_shape
-def span_future(start: pd.Timestamp, delta: str = '1W', freq: str = '1H') -> pd.DataFrame:
+def span_future(start: pd.Timestamp, delta: str = '1W', freq: str = '1h') -> pd.DataFrame:
     """
     Generate a dataframe of dates to predict on.
     The future always begins at midnight (after start).
