@@ -10,3 +10,8 @@
 2026-09-09 14:39:52 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - merge: shape = (945, 2)
 2026-09-09 14:39:52 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - resample: shape = (659, 2)
 2026-09-09 14:39:52 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - etl: shape = (659, 2)
+2026-09-09 14:51:40 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/infrastructure/extract.py - INFO - extract: shape = (2158, 6)
+2026-09-09 14:51:40 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/infrastructure/extract.py - INFO - extract: shape = (3247, 6)
+2026-09-09 14:51:40 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - clean: shape = (380, 3)
+2026-09-09 14:51:41 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - clean: shape = (565, 3)
+2026-09-09 14:51:41 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - merge: shape = (945, 2)
