@@ -60,3 +60,7 @@
 2026-09-09 15:05:27 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - merge: shape = (945, 2)
 2026-09-09 15:05:27 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - resample: shape = (659, 2)
 2026-09-09 15:05:27 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/transform.py - INFO - etl: shape = (659, 2)
+2026-09-09 15:06:18 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/feature_engineering.py - INFO - dummy_day: shape = (659, 8)
+2026-09-09 15:06:18 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/feature_engineering.py - INFO - hour_cos_sin: shape = (659, 10)
+2026-09-09 15:06:18 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/feature_engineering.py - INFO - lag_offline: shape = (491, 11)
+2026-09-09 15:06:18 - /Users/moussa/Documents/ml_data_base/MlOps_1/forecasting/../foodcast/domain/feature_engineering.py - INFO - features_offline: shape = (491, 11)

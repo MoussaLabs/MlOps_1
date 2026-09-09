@@ -1,0 +1,33 @@
+# Dépendances pour lancer les notebooks forecding/ et le package foodcast/
+# sur Python 3.11+ (testé avec Python 3.13).
+#
+#   python -m venv .venv
+#   source .venv/bin/activate       # Windows: .venv\Scripts\activate
+#   pip install -r requirements.txt
+#   python -m ipykernel install --user --name mlops1 --display-name "Python (MlOps_1)"
+#
+# puis dans VSCode / Jupyter, choisir le kernel "Python (MlOps_1)".
+
+# --- coeur data science ---
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.1
+statsmodels==0.15.0
+
+# --- visualisation ---
+plotly==7.0.0
+
+# --- tracking d'expériences ---
+mlflow==3.16.0
+cloudpickle==3.1.2
+
+# --- utilitaires utilisés par foodcast/ ---
+PyYAML==6.0.3
+click==8.5.0
+python-dotenv==1.2.3
+
+# --- exécution des notebooks ---
+ipykernel==7.3.0
+nbclient==0.11.0
+nbconvert==7.17.1
